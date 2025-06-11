@@ -1,5 +1,5 @@
 {
-    "id":"urn:wmo:md:eu-eumentnet-femdi:radar-realtime",
+    "id":"urn:wmo:md:eu-eumetnet-femdi:radar-realtime",
     "conformsTo":[
         "http://wis.wmo.int/spec/wcmp/2/conf/core"
     ],
@@ -9,24 +9,24 @@
         "coordinates":[
             [
                 [
-                    -170.323855,
-                    16.93461
+                    17.0,
+                    56.7513
                 ],
                 [
-                    -170.323855,
-                    67.19061
+                    17.0,
+                    71.2681
                 ],
                 [
-                    -50.002855,
-                    67.19061
+                    32.70,
+                    71.2681
                 ],
                 [
-                    -50.002855,
-                    16.93461
+                    32.70,
+                    56.7513
                 ],
                 [
-                    -170.323855,
-                    16.93461
+                    17.0,
+                    56.7513
                 ]
             ]
         ]
