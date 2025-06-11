@@ -115,7 +115,7 @@
     },
     "links":[
         {
-            "href":"https://opendata.fmi.fi/geoserver/wms?service=WMS&request=GetCapabilities&layers=suomi_dbz_eureffin",
+            "href":"https://openwms.fmi.fi/geoserver/wms?service=WMS&request=GetCapabilities&layers=suomi_dbz_eureffin",
             "type":"application/xml",
             "rel":"data",
             "title":"Radar dbz"
