@@ -35,7 +35,8 @@
         "interval": [
             "T00Z",
             "T23Z"
-        ]  
+        ], 
+"resolution": "P10M"
 },
   "properties": {
     "title": "European weather radar data",
