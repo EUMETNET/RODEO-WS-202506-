@@ -1,5 +1,5 @@
 {
-  "id": "urn:wmo:md:eu-eumetnet-observations:swob-realtime",
+  "id": "urn:wmo:md:eu-eumetnet-femdi:radar-realtime",
   "conformsTo": [
     "http://wis.wmo.int/spec/wcmp/2/conf/core"
   ],
@@ -34,15 +34,15 @@
   "time": {
     "interval": [
       [
-        "2025-06-10T13:47:24Z",
-        "2025-06-11T13:50:00Z"
+        "T00Z",
+        "T23Z"
       ]
     ],
-    "resolution": "PT10M"
+    "resolution": "PT5M"
   },
   "properties": {
-    "title": "Land surface weather observations",
-    "description": "Land surface observations measured at automatic and manual stations of EUMETNET Members (last 24 hours)",
+    "title": "European weather radar data",
+    "description": "European weather radar data",
     "themes": [
       {
         "concepts": [
@@ -58,13 +58,13 @@
             "id": "surface-based-observations"
           }
         ],
-        "scheme": "https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/_weather"
+        "scheme": "https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather"
       }
     ],
     "language": "en",
     "type": "dataset",
-    "created": "2023-01-01T00:00:00Z",
-    "updated": "2024-09-19T00:00:00Z",
+    "created": "2025-06-11T00:00:00Z",
+    "updated": "2025-06-11T00:00:00Z",
     "contacts": [
       {
         "organization": "EUMETNET",
@@ -93,35 +93,15 @@
     "keywords": [
       "surface weather",
       "observations",
-      "meteorology"
+      "meteorology",
+      "weather radar",
+      "meteogate",
+      "Finland",
+      "Norway"
     ],
-    "wmo:dataPolicy": "core"
+    "wmo:dataPolicy": "recommended"
   },
   "links": [
-    {
-      "rel": "items",
-      "href": "E-SOH dataset mqtt stream",
-      "title": "E-SOH dataset data notifications",
-      "type": "application/json"
-    },
-    {
-      "rel": "items",
-      "href": "E-SOH time series mqtt stream",
-      "title": "E-SOH time series data notifications",
-      "type": "application/json"
-    },
-    {
-      "rel": "data",
-      "href": "E-SOH API landing page",
-      "title": "E-SOH EDR API landing page",
-      "type": "application/json"
-    },
-    {
-      "rel": "related",
-      "href": "E-SOH API documentation",
-      "title": "E-SOH API documentation",
-      "type": "application/json"
-    },
     {
       "rel": "about",
       "href": "https://www.eumetnet.eu/wp-content/uploads/2018/03/List-of-current-Members-as-pdf.pdf",
