@@ -1,0 +1,138 @@
+{
+  "id": "urn:wmo:md:eu-eumetnet-observations:swob-realtime",
+  "conformsTo": [
+    "http://wis.wmo.int/spec/wcmp/2/conf/core"
+  ],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.2758,
+          -72.012
+        ],
+        [
+          31.4585,
+          -72.012
+        ],
+        [
+          31.4585,
+          80.6518
+        ],
+        [
+          -68.2758,
+          80.6518
+        ],
+        [
+          -68.2758,
+          -72.012
+        ]
+      ]
+    ]
+  },
+  "time": {
+    "interval": [
+      [
+        "2025-06-10T13:47:24Z",
+        "2025-06-11T13:50:00Z"
+      ]
+    ],
+    "resolution": "PT10M"
+  },
+  "properties": {
+    "title": "Land surface weather observations",
+    "description": "Land surface observations measured at automatic and manual stations of EUMETNET Members (last 24 hours)",
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "weather"
+          }
+        ],
+        "scheme": "https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline"
+      },
+      {
+        "concepts": [
+          {
+            "id": "surface-based-observations"
+          }
+        ],
+        "scheme": "https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/_weather"
+      }
+    ],
+    "language": "en",
+    "type": "dataset",
+    "created": "2023-01-01T00:00:00Z",
+    "updated": "2024-09-19T00:00:00Z",
+    "contacts": [
+      {
+        "organization": "EUMETNET",
+        "addresses": [
+          {
+            "deliveryPoint": [
+              "Avenue Circulaire 3"
+            ],
+            "city": "Bruxelles",
+            "postalCode": "1180",
+            "country": "Belgique"
+          }
+        ],
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.eumetnet.eu/about-us/"
+          }
+        ],
+        "roles": [
+          "host"
+        ]
+      }
+    ],
+    "keywords": [
+      "surface weather",
+      "observations",
+      "meteorology"
+    ],
+    "wmo:dataPolicy": "core"
+  },
+  "links": [
+    {
+      "rel": "items",
+      "href": "E-SOH dataset mqtt stream",
+      "title": "E-SOH dataset data notifications",
+      "type": "application/json"
+    },
+    {
+      "rel": "items",
+      "href": "E-SOH time series mqtt stream",
+      "title": "E-SOH time series data notifications",
+      "type": "application/json"
+    },
+    {
+      "rel": "data",
+      "href": "E-SOH API landing page",
+      "title": "E-SOH EDR API landing page",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "E-SOH API documentation",
+      "title": "E-SOH API documentation",
+      "type": "application/json"
+    },
+    {
+      "rel": "about",
+      "href": "https://www.eumetnet.eu/wp-content/uploads/2018/03/List-of-current-Members-as-pdf.pdf",
+      "title": "EUMETNET Members",
+      "type": "text/html"
+    },
+    {
+      "rel": "license",
+      "href": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons BY 4.0 licence",
+      "type": "text/html"
+    }
+  ]
+}
