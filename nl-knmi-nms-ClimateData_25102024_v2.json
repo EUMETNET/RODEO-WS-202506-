@@ -1,0 +1,221 @@
+{
+    "id": "urn:wmo:md:nl-knmi-nms:etmaalgegevensKNMIstations-1",
+    "conformsTo": [
+        "http://wis.wmo.int/spec/wcmp/2/conf/core"
+    ],
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -68.5,
+                    12
+                ],
+                [
+                    -68.5,
+                    55.7
+                ],
+                [
+                    7.4,
+                    55.7
+                ],
+                [
+                    7.4,
+                    12
+                ],
+                [
+                    -68.5,
+                    12
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "identifier": "urn:wmo:md:nl-knmi-nms:etmaalgegevensKNMIstations-1",
+        "title": "Meteo data - daily quality controlled climate data KNMI, the Netherlands",
+        "description": "KNMI operates automatic weather stations on land (incl. airports). These weather stations measures meteorological parameters such as temperature, precipitation, wind, air pressure and global radiation. On a daily basis all real-time collected observations and measurements (hourly) are validated on correctness and completeness. The validated data is archived in the Klimatologisch Informatie Systeem (KIS) of KNMI. The daily data is composed from hourly data and each day reference evaporation is calculated using the Makkink method. After the data has been processed and archived in KIS, changes are no longer possible. This assures data integrity.",
+        "themes": [
+            {
+                "concepts": [
+                    {
+                        "id": "climate",
+                        "title": "Climate",
+                        "url": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/climate"
+                    },
+                    {
+                        "id": "weather",
+                        "title": "Weather",
+                        "url": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather"
+                    }
+                ],
+                "scheme": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline"
+            },
+            {
+                "concepts": [
+                    {
+                        "id": "surface_based_observations",
+                        "title": "Surface observations",
+                        "url": "http://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather/surface-based-observations"
+                    }
+                ],
+                "scheme": "https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/_weather"
+            },
+            {
+                "concepts": [
+                    {
+                        "id": "continual"
+                    }
+                ],
+                "scheme": "https://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_FrequencyCode"
+            },
+            {
+                "concepts": [
+                    {
+                        "id": "air_temperature",
+                        "title": "Air temperature",
+                        "url": "https://vocab.nerc.ac.uk/standard_name/air_temperature/"
+                    },
+                    {
+                        "id": "precipitation_amount",
+                        "title": "Precipitation amount",
+                        "url": "http://vocab.nerc.ac.uk/standard_name/precipitation_amount/"
+                    },
+                    {
+                        "id": "air_pressure",
+                        "title": "Air pressure/",
+                        "url": "http://vocab.nerc.ac.uk/standard_name/air_pressure/"
+                    },
+                    {
+                        "id": "wind_speed",
+                        "title": "Wind speed",
+                        "url": "http://vocab.nerc.ac.uk/standard_name/wind_speed/"
+                    },
+                    {
+                        "id": "wind_to_direction",
+                        "title": "Wind to direction",
+                        "url": "https://vocab.nerc.ac.uk/standard_name/wind_to_direction/"
+                    },
+                    {
+                        "id": "surface_downwelling_shortwave_flux_in_air",
+                        "title": "Surface downwelling shortwave flux in air",
+                        "url": "http://vocab.nerc.ac.uk/standard_name/surface_downwelling_shortwave_flux_in_air/"
+                    },
+                    {
+                        "id": "surface_downwelling_longwave_flux_in_air/",
+                        "title": "Surface downwelling longwave flux in air",
+                        "url": "http://vocab.nerc.ac.uk/standard_name/surface_downwelling_longwave_flux_in_air/"
+                    },
+                    {
+                        "id": "atmosphere_mass_content_of_water_vapor",
+                        "title": "Atmosphere mass content of water vapor",
+                        "url": "http://vocab.nerc.ac.uk/standard_name/atmosphere_mass_content_of_water_vapor/"
+                    }
+                ],
+                "scheme": "http://vocab.nerc.ac.uk/standard_name/"
+            }
+        ],
+        "wmo:dataPolicy": "core",
+        "language": "en",
+        "type": "dataset",
+        "created": "2023-01-01T00:00:00Z",
+        "updated": "2023-12-05T00:00:00Z",
+        "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021))",
+        "contacts": [
+            {
+                "addresses": [
+                    {
+                        "deliveryPoint": [
+                            "Utrechtseweg 297"
+                        ],
+                        "city": "De Bilt",
+                        "postalCode": "3731 GA",
+                        "country": "Netherlands"
+                    }
+                ],
+                "roles": [
+                    "host"
+                ],
+                "organization": "Koninklijk Nederlands Meteorologisch Instituut (KNMI)",
+                "position": "KNMI Data Platform",
+                "hoursOfService": "0800h - 1600h CEST/CET",
+                "phones": [
+                    {
+                        "value": "+31302206911"
+                    }
+                ],
+                "emails": [
+                    {
+                        "value": "opendata@knmi.nl"
+                    }
+                ],
+                "links": [
+                    {
+                        "rel": "canonical",
+                        "type": "text/html",
+                        "href": "https://dataplatform.knmi.nl"
+                    }
+                ]
+            }
+        ],
+        "version": "0.1",
+        "keywords": [
+            "surface weather",
+            "temperature",
+            "observations",
+            "meteorology"
+        ]
+    },
+    "links": [
+        {
+            "href": "ToBeAddedByFEMDI",
+            "type": "application/json",
+            "rel": "canonical",
+            "title": "OGC-API EDR"
+        },
+        {
+            "href": "https://api.dataplatform.knmi.nl/open-data/v1/datasets/etmaalgegevensKNMIstations/versions/1/files",
+            "type": "application/json",
+            "rel": "items",
+            "title": "Raw data files"
+        },
+        {
+            "rel": "items",
+            "href": "mqtt.dataplatform.knmi.nl",
+            "type": "application/geo+json",
+            "title": "Notifications from KNMI MQTT Broker",
+            "channel": "dataplatform/file/v1/etmaalgegevensKNMIstations/1/#"
+        },
+        {
+            "href": "https://oscar.wmo.int/surface/rest/api/search/station/?&operatingStatus=Operational&territoryName=NLD&longitudeMin=-68.5&longitudeMax=7.4&latitudeMax=55.7&latitudeMin=12.0",
+            "type": "application/json",
+            "rel": "stations",
+            "title": "Stations"
+        },
+        {
+            "href": "https://developer.dataplatform.knmi.nl/edr-api#howto",
+            "type": "text/html",
+            "rel": "related",
+            "title": "Documentation"
+        },
+        {
+            "href": "https://creativecommons.org/licenses/by/4.0/",
+            "type": "text/html",
+            "rel": "license",
+            "title": "CC BY 4.0 Deed | Attribution 4.0 International | Creative Commons"
+        },
+        {
+            "href": "https://dataplatform.knmi.nl/dataset/etmaalgegevensknmistations-1",
+            "type": "text/html",
+            "rel": "cite-as",
+            "title": "Koninklijk Nederlands Meteorologisch Instituut (KNMI) | Meteo data - daily quality controlled climate data KNMI, the Netherlands | Created 2023-01-01 | urn:wmo:md:nl-knmi-nms:etmaalgegevensKNMIstations-1 | https://creativecommons.org/licenses/by/4.0/ | CC0 BY 4.0 Deed"
+        }
+    ],
+    "time": {
+        "interval": [
+            "1950-01-01",
+            ".."
+        ],
+        "resolution": "P1D"
+    }
+}
