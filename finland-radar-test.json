@@ -1,0 +1,132 @@
+{
+    "id":"urn:wmo:md:eu-eumentnet-femdi:radar-realtime",
+    "conformsTo":[
+        "http://wis.wmo.int/spec/wcmp/2/conf/core"
+    ],
+    "type":"Feature",
+    "geometry":{
+        "type":"Polygon",
+        "coordinates":[
+            [
+                [
+                    -170.323855,
+                    16.93461
+                ],
+                [
+                    -170.323855,
+                    67.19061
+                ],
+                [
+                    -50.002855,
+                    67.19061
+                ],
+                [
+                    -50.002855,
+                    16.93461
+                ],
+                [
+                    -170.323855,
+                    16.93461
+                ]
+            ]
+        ]
+    },
+    "properties":{
+        "title":"Finland Radar Composite",
+        "description":"Test",
+        "themes":[
+            {
+                "concepts":[
+                    {
+                        "id":"Radar"
+                    },
+                    {
+                        "id":"Remote sensing"
+                    },
+                    {
+                        "id":"Weather"
+                    }
+                ],
+                "scheme":"https://canada.multites.net/cst/EAEAD1E6-7DD2-4997-BE7F-40BFB1CBE8A2/CST20230912.rdf"
+            },
+            {
+                "concepts":[
+                    {
+                        "id":"weather"
+                    }
+                ],
+                "scheme":"https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline"
+            }
+        ],
+        "language":"en",
+        "type":"dataset",
+        "created":"2025-06-11T00:00:00Z",
+        "rights":"CC BY 4.0",
+        "formats":[
+            "WMS"
+        ],
+        "contacts":[
+            {
+                "addresses":[
+                    {
+                        "deliveryPoint":[
+                            "Erik Palmenin aukio 1"
+                        ],
+                        "city":"Helsinki",
+                        "administrativeArea":"Helsinki",
+                        "postalCode":"00560",
+                        "country":"Finland"
+                    }
+                ],
+                "roles":[
+                    "host"
+                ],
+                "organization":"innish Meteorological Institute",
+                "name":"Open Data Helpdesk",
+                "contactInstructions":"email",
+                "phones": [
+                    {
+                        "value": "+358295391000"
+                    }
+                ],
+                "emails": [
+                    {
+                        "value": "opendata@fmi.fi"
+                    }
+                ],
+                "links":[
+                    {
+                        "rel":"canonical",
+                        "type":"text/html",
+                        "href":"https://ilmatieteenlaitos.fi/en/opendata"
+                    }
+                ]
+            }
+        ],
+        "keywords":[
+            "Atmospheric conditions",
+            "Meteorology",
+            "Weather",
+            "Weather and Climate",
+            "Finland",
+            "Atmosphere"
+        ],
+        "wmo:dataPolicy":"core"
+    },
+    "links":[
+        {
+            "href":"https://opendata.fmi.fi/geoserver/wms?service=WMS&request=GetCapabilities&layers=suomi_dbz_eureffin",
+            "type":"application/xml",
+            "rel":"data",
+            "title":"Radar dbz"
+        }
+
+    ],
+    "time":{
+        "interval":[
+            "2018-03-08",
+            ".."
+        ],
+        "resolution": "PT5M"
+    }
+}
