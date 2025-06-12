@@ -1,0 +1,141 @@
+{	
+  "id": "urn:wmo:md:no-metnorway-eumetnet:land-station-observations",	
+  "type": "Feature",
+  "conformsTo": [	
+    "http://wis.wmo.int/spec/wcmp/2/conf/recommended"	
+  ],  
+    "geometry": { 
+        "type": "Polygon", 
+        "coordinates": [ 
+       [ 
+        [-70,10],
+        [40,10],
+        [40,90],
+        [-70,90],
+        [-70,10]
+       ] 
+     ]},
+ "time": {	
+    "interval": [	
+        "T00Z",	
+        "T23Z"	
+    ],	
+    "resolution": "PT10M"	
+  },  
+  "properties": {
+    "title": "Land surface weather observations",	
+    "description":"Land surface observations measured at automatic and manual weather stations of EUMETNET Members (last 24 hours only)",	
+    "contacts": [	
+      {	
+        "identifier": "ID",
+        "name": "To be decided",	
+        "organization": "To be decided",	
+        "phones": [	
+          {	
+            "value": "To be decided"	
+          }	
+        ],	
+        "emails": [	
+          {	
+            "value": "To be decided"	
+          }	
+        ],	
+        "addresses": [	
+          {	
+            "deliveryPoint": [	
+              "To be decided"	
+            ],	
+            "name": "To be decided",	
+            "city": "To be decided",	
+            "postalCode": "To be decided",	
+            "country": "To be decided"	
+          }
+        ],	
+        "links": [	
+          {	
+            "rel": "canonical",	
+            "type": "text/html",	
+            "href": "https://www.eumetnet.eu/about-us"	
+          }	
+        ],	
+        "roles": ["host"]
+      }
+    ],			
+    "keywords": [	
+       "weather",	
+       "surface-based observations",	
+       "observations",
+       "meteorology",
+       "surface weather",
+       "Norway",
+       "Finalnd",
+       "the Netherlands"	
+     ],	
+    "themes": [	
+       { "concepts": [
+          {
+            "id":"weather",
+            "title": "Weather",	
+            "url": "https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather"
+          }
+        ],
+        "scheme":"https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline"
+       },
+       { "concepts": [
+          {
+            "id":"surface-based-observations"
+          }
+        ],
+        "scheme":"https://codes.wmo.int/wis/topic-hierarchy/earth-system-discipline/weather"
+        },
+      {	
+        "concepts": [
+          {	
+            "id": "air_temperature",	
+            "title": "Air temperature",	
+            "url": "http://vocab.nerc.ac.uk/standard_name/air_temperature/"	
+          },	
+          {	
+            "id": "wind_speed",	
+            "title": "Wind Speed",	
+            "url": "http://vocab.nerc.ac.uk/standard_name/wind_speed/"	
+          },
+          {	
+            "id": "wind_to_direction",	
+            "title": "Wind to diection",	
+            "url": "http://vocab.nerc.ac.uk/standard_name/wind_to_direction/"	
+          }	
+                    ],	
+        "scheme": "https://vocab.nerc.ac.uk/standard_name"
+      }	
+    ],	
+    "language":"en",
+    "created": "2025-06-04T14:00:00Z",	
+    "updated": "2025-06-04T14:00:00Z",		
+    "wmo:dataPolicy": "recommended",
+    "rights": "Users are granted free and unrestricted access to this data, without charge and with no conditions on use. Users are requested to attribute the producer of this data. WMO Unified Data Policy (Resolution 1 (Cg-Ext 2021))",
+    "licence": "CC BY 4.0 Creative Commons license",
+    "type": "dataset"
+  },	
+  "links": [	
+    {	
+      "rel": "related",	
+      "href": "https://www.eumetnet.eu/observations/observations-data-sharing-2/",	
+      "type": "text/html",	
+      "title": "Documentation related to EUMETNET data sharing"	
+    },	
+    {	
+      "rel": "related",	
+      "href": "https://www.eumetnet.eu/about-us-2/members-partners/",	
+      "type": "text/html",	
+      "title": "List of EUMETNET Members"	
+    },	
+    {	
+      "rel": "items",	
+      "href": "mqtts://????????metnorway.no????",	
+      "channel": "origin/a/wis2/no-metnorway-eumetnet/data/recommended/weather/experimental/surface-based-observations/land-station-observations",	
+      "type": "application/geo+json",	
+      "title": "Data notifications broker"	
+    }	
+  ]	
+}		
