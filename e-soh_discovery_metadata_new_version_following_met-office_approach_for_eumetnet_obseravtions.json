@@ -32,12 +32,12 @@
         "organization": "To be decided",	
         "phones": [	
           {	
-            "value": "To be decided"	
+            "value": "+447777777777"	
           }	
         ],	
         "emails": [	
           {	
-            "value": "To be decided"	
+            "value": "To.be.decided@eumetnet.eu"	
           }	
         ],	
         "addresses": [	
@@ -129,13 +129,7 @@
       "href": "https://www.eumetnet.eu/about-us-2/members-partners/",	
       "type": "text/html",	
       "title": "List of EUMETNET Members"	
-    },	
-    {	
-      "rel": "items",	
-      "href": "mqtts://????????metnorway.no????",	
-      "channel": "origin/a/wis2/no-metnorway-eumetnet/data/recommended/weather/experimental/surface-based-observations/land-station-observations",	
-      "type": "application/geo+json",	
-      "title": "Data notifications broker"	
+    }
     }	
   ]	
 }		
