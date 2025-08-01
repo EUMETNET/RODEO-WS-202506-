@@ -1,5 +1,5 @@
 {	
-  "id": "urn:wmo:md:eu-eumetnet-xxxx:weather:surface-based-observations.land-station-observations",	
+  "id": "urn:wmo:md:eu-eumetnet-surface-observations:weather:surface-based-observations.land-station-observations",	
     "conformsTo": [
       "http://wis.wmo.int/spec/wcmp/2/conf/core"
   ],
@@ -25,7 +25,7 @@
     },  
 "properties": {
     "title": "Land surface weather observations",	
-    "description":"Land surface observations measured at automatic and manual weather stations of EUMETNET Members (last 24 hours only)",	
+    "description":"Land surface observations measured at automatic and manual weather stations of EUMETNET Members and thier trusted partners (last 24 hours only)",	
     "contacts": [	
       {	
         "name": "Met Norway",	
