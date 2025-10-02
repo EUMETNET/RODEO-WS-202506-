@@ -1,5 +1,5 @@
 {	
-  "id": "urn:wmo:md:eu-eumetnet-surface-observations:weather:surface-based-observations.land-station-observations",	
+  "id": "urn:wmo:md:eu-eumetnet-surface-observations:land-station-observations",	
     "conformsTo": [
       "http://wis.wmo.int/spec/wcmp/2/conf/core"
   ],
@@ -138,3 +138,4 @@
     }
   ]	
 }		
+
