@@ -5,5 +5,6 @@ Metadata validator can be found here: https://gdc.wis2dev.io/openapi#/pywcmp-wis
 The content of this repo are primarily exmaples of Discovery Metadata. Some of the example are not WMO Core Metadata Profile (WCMP) Version 2 compliant. <br> 
 <br>
 Where the content name starts `urn.wmo.md.{centre_id}.{local_identifier}` the content does comply with WCMP2. <br>
-Where the content name starts `OSLO` the contrent was created at the Oslo workshop in June 2025.
+Where the content name starts `OSLO` the content was created at the Oslo workshop in June 2025. <br>
+Where the content name starts `Current` the content represents the current version of discovery metadata.
 
