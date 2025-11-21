@@ -1,5 +1,5 @@
 {
-  "id": "urn:wmo:md:eu-eumetnet-weather-radar:weather-radar-single-site",
+  "id": "urn:wmo:md:eu-eumetnet-weather-radar:weather-radar",
   "conformsTo": [
     "http://wis.wmo.int/spec/wcmp/2/conf/core"
   ],
