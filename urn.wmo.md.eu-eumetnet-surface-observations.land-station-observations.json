@@ -43,11 +43,11 @@
         "addresses": [	
           {	
             "deliveryPoint": [	
-              "Henrik Mohns plass 1"	
+              "https://www.met.no/en/contact-us"	
             ],	
             "name": "Met Norway",	
             "city": "Oslo",	
-            "postalCode": "Gaustadalléen 21",	
+            "postalCode": "0313",	
             "country": "Norway"	
           }
         ],	
@@ -138,4 +138,5 @@
     }
   ]	
 }		
+
 
